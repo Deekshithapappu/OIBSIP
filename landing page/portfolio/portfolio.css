@@ -1,0 +1,326 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#image{
+    float:left;
+    height:400px;
+    width:400px;
+    margin:-130px 0px 0px 60px;
+}
+.navbar{
+    display:flex;
+    margin:25px 0px;
+    align-items: center;
+    justify-content: center;
+}
+.navbar a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    padding:8px 25px;
+}
+.navbar a:hover{
+    background-color:black;
+    color:beige;
+    box-shadow:0 0 10px;
+}
+/*home section*/
+#home{
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    background-color:black;
+    height:700px;
+    width:100%;
+    top:10px;
+}
+#home::before{
+    content:"";
+    position:absolute;
+    top:0;
+    right:0;
+
+}
+.headings{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:3rem;
+    margin:100px 0px 30px 350px;
+    color:white;
+}
+#t2{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1rem;
+    margin:0px 0px 0px 770px;
+    padding:10px;
+    background-color:black;
+    color:white;
+
+}
+#t2:hover{
+    cursor:pointer;
+    background-color:white;
+    color:black;
+}
+/*about page*/
+#about{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT84HPL9YWoBaIiRkkGOVHyyOKKaEMZT4MNnw&s');
+    height:600px;
+    width:100%;
+}
+img{
+    display:flex;
+    box-sizing: border-box;
+    height:360px;
+    width:300px;
+    margin:20px 0px 0px 120px;
+}
+#heading5{
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 20px;
+    text-align: center;
+    color:black;
+
+}
+.t4{
+   
+  display:flex;
+  flex-direction: column;
+  margin:-330px 200px 400px 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+}
+#dixi{
+    margin-bottom: 10px;
+}
+
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT84HPL9YWoBaIiRkkGOVHyyOKKaEMZT4MNnw&s');
+}
+/*contant field*/
+#contact{
+    text-align:center;
+    height:700px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    color:white;
+    background-color:black;
+}
+#id1{
+    margin:80px 0px 0px 10px;
+    height:40px;
+    width:25%
+}
+#heading3{
+    margin-top:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:35px;
+}
+#form{
+font-family: Arial, Helvetica, sans-serif;
+font-size:35px;
+color:white;
+margin:20px 0px 0px 10px;
+padding:10px;
+}
+
+#id2{
+    margin:20px 20px 0px 20px;
+    height:35px;
+    width:25%;
+}
+#id3{
+    margin:20px 20px 0px 10px;
+}
+#id4{
+    height:40px;
+    width:10%;
+    color:black;
+    background-color:white;
+    margin:50px 0px 0px 0px;
+    padding:10px;
+}
+#id4:hover{
+    cursor:pointer;
+    box-shadow:0 0 10px white;
+
+}
+#services
+{
+    height:700px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.box{
+    display:flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: justify;
+    border:5px solid black;
+    background-color:dimgrey;
+    background-position: left bottom;
+    width:30%;
+    height:60%;
+    font size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    margin-top:100px;
+    padding:10px;
+
+}
+#s1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#s2{
+    font-size:30px;
+    text-align:center;
+    color:white;
+    margin:30px;
+    padding:10px;
+}
+.box1{
+    display:flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: justify;
+    border:5px solid black;
+    background:dimgrey;
+    background-position: left bottom;
+    width:30%;
+    height:60%;
+    font size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    margin:-395px 0px 0px 400px;
+    padding:10px;
+}
+#s3{
+    font-size:30px;
+    text-align:center;
+    color:white;
+    margin:30px;
+    padding:10px;
+}
+.box2{
+    display:flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: justify;
+    border:5px solid black;
+    background-color: dimgrey;
+    background-position: left bottom;
+    width:30%;
+    height:60%;
+    font size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    margin:-395px 0px 0px 800px;
+    padding:10px;
+}
+#s4{
+    font-size:30px;
+    text-align:center;
+    color:white;
+    margin:30px;
+    padding:10px;
+}
+.box:hover{
+      color:black;
+      border:none;
+      box-shadow:0 0 20px;
+      border-color: black;
+}
+.box1:hover{
+    color:black;
+    border:none;
+    box-shadow:0 0 20px;
+    border-color: black;
+}
+.box2:hover{
+    color:black;
+    border:none;
+    box-shadow:0 0 20px;
+    border-color: black;
+}
+/*work section*/
+#portfolio{
+    background-color:black;
+    height:700px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+  }
+#heading2{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:35px;
+    margin:30px 0px 20px 0px;
+    color:white;
+}
+#tag1{
+    height:200px;
+    width:200px;
+    float:left;
+    border-radius: 40px;
+    border:5px solid white;
+}
+#tag2{
+    height:200px;
+    width:200px;
+    float:left;
+    margin:20px 0px 0px 40px;
+    border-radius: 40px;
+    border:5px solid white;
+}
+#tag3{
+    height:200px;
+    width:200px;
+    float:left;
+    margin:20px 20px 0px 50px;
+    border-radius:40px;
+    border-color:white;
+    border:5px solid white;
+}
+#tag4{
+    height:200px;
+    width:200px;
+    float:right;
+    margin:20px 170px 0px 0px;
+    border-radius:40px;
+    border:5px solid white;
+}
+#tag5{
+    height:200px;
+    width:200px;
+    float:left;
+    margin:100px 0px 0px 350px;
+    border-radius:40px;
+    border:5px solid white;
+}
+#tag6{
+    height:200px;
+    width:200px;
+    float:right;
+    margin:100px 300px 0px 0px;
+    border-radius:40px;
+    border:5px solid white;
+}
+
